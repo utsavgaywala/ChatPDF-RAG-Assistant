@@ -1,0 +1,5 @@
+*.pyc
+__pycache__/
+vectordb/
+chatpdf_db/
+.env
