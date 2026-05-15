@@ -20,7 +20,7 @@ st.set_page_config(
 @st.cache_resource
 def load_models():
     embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
-    groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+    groq_client = Groq(api_key=os.getenv("GROQ_API_Key"))
     return embedding_model, groq_client
 
 embedding_model, groq_client = load_models()
