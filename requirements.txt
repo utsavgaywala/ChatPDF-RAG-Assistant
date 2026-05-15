@@ -3,4 +3,5 @@ pypdf
 sentence-transformers
 groq
 python-dotenv
-chromadb-client
+faiss-cpu
+numpy
